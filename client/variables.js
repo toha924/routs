@@ -3,5 +3,4 @@ const Variables = ({ clientVariables = {} }) => {
       var globals = ${JSON.stringify(clientVariables)}
   `
 }
-
 export default Variables
