@@ -15,7 +15,7 @@ const Home = () => {
             <Route exact path="/dashboard" component={() => <Dashboard />} />
             <Route exact path="/dashboard/profile/:userName" component={() => <User />} />
             <Route exact path="/dashboard/main" component={() => <Main />} />
-          </Switch>  
+          </Switch>
         </div>
       </div>
     </div>

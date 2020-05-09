@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom'
 
 const Main = () => {
   return (
-    <div id="title">Main
+    <div>
+      <div id="title">Main</div>
       <Link to="/dashboard"> Go to Dashboard</Link>
       <Link to="/dashboard/profile/7e61eef1-dc58-44ce-9901-3871cce40541"> Go to Profile</Link>
-    </div>    
+    </div>
   )
 }
 
